@@ -20,5 +20,17 @@ class CareerSeeder extends Seeder
         Careers::create([
             'name' => 'Desarrollo de Videojuegos'
         ]);
+
+        Careers::create([
+            'name' => 'Desarrollo de Software'
+        ]);
+
+        Careers::create([
+            'name' => 'Ciberseguridad'
+        ]);
+
+        Careers::create([
+            'name' => 'Inteligencia Artificial'
+        ]);
     }
 }
